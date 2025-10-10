@@ -3,6 +3,13 @@
 ## challenge #10
 Buatlah function bernama `validateAndCalculateGrade` yang menerima parameter `nama` dan `nilai`. Function melakukan validasi nilai (0-100), menampilkan hasil dengan console.log, dan mengembalikan grade huruf (A/B/C/D/E) atau null jika tidak valid.
 
+Grade Range :
+90 - 100 = A
+80 - 89 = B
+70 - 79 = C
+60 - 69 = D
+0 - 59 = E
+
 ## driver code
 ```javascript
 // Tulis function validateAndCalculateGrade di sini
