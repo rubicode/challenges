@@ -3,6 +3,12 @@
 ## challenge #7
 Buatlah function `calculateGrades` yang menerima array nilai dan menghitung berapa banyak setiap grade (A,B,C,D,E) menggunakan for loop dan switch.
 
+- A : 86 - 100
+- B : 76 - 85
+- C : 66 - 75
+- D : 56 - 65
+- E : 0 - 55
+
 ## driver code
 ```javascript
 // Tulis function calculateGrades di sini
