@@ -28,7 +28,7 @@ Processing: 5 -> 11
 {
   original: [1, 2, 3, 4, 5],
   transformed: [3, 5, 7, 9, 11],
-  stats: { processed: 5, sum: 30, average: 6 }
+  stats: { processed: 5, sum: 35, average: 7 }
 }
 ```
 
