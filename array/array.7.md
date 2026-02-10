@@ -7,7 +7,7 @@ Buatlah function `transformArray` yang menerima parameter `arr` dan `operations`
 ```javascript
 // Tulis function transformArray di sini
 
-let numbers = [1, 2, 3, 4, 5];
+let numbers = [1, 2, 4, 6, 9];
 console.log(transformArray(numbers, { 
   multiply: 2, 
   add: 1, 
@@ -18,17 +18,17 @@ console.log(transformArray(numbers, {
 ## output
 ```javascript
 // Console output dari forEach:
-Processing: 1 -> 3
-Processing: 2 -> 5  
-Processing: 3 -> 7
-Processing: 4 -> 9
-Processing: 5 -> 11
+Processing ke-1: 1 -> 3
+Processing ke-2: 2 -> 5  
+Processing ke-3: 4 -> 9
+Processing ke-4: 6 -> 13
+Processing ke-5: 9 -> 19
 
 // Return value:
 {
-  original: [1, 2, 3, 4, 5],
-  transformed: [3, 5, 7, 9, 11],
-  stats: { processed: 5, sum: 35, average: 7 }
+  original: [1, 2, 4, 6, 9],
+  transformed: [3, 5, 9, 13, 19],
+  stats: { processed: 5, sum: 49, average: 9.8 }
 }
 ```
 
